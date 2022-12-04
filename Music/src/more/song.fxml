@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="more.Maincontroller">
+   <children>
+      <Label layoutX="370.0" layoutY="628.0" text="3/3" textFill="#7e93c9">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="back4" layoutX="302.0" layoutY="606.0" onMouseClicked="#playout4" prefHeight="78.0" prefWidth="58.0" text="&lt;">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="173.0" prefHeight="41.0" prefWidth="620.0" text="솔미미 파레레 도레미파 솔솔솔" textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="276.0" prefHeight="52.0" prefWidth="664.0" text="솔미미미 파레레 도미솔솔 미미미" textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="374.0" prefHeight="52.0" prefWidth="664.0" text="레레레레 레미파 미미미미 미파솔" textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="480.0" prefHeight="52.0" prefWidth="664.0" text="솔미미 파레레 도미솔솔 미미미" textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="61.0" prefHeight="52.0" prefWidth="345.0" text="나비야 나비야~~" textFill="#5fff0d">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

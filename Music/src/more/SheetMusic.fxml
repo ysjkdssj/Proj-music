@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="more.Maincontroller">
+   <children>
+      <Label fx:id="go3" layoutX="442.0" layoutY="601.0" onMouseClicked="#play2" prefHeight="78.0" prefWidth="58.0" text="&gt;">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label layoutX="370.0" layoutY="623.0" text="1/3" textFill="#7e93c9">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="6.0" text="sheet music" textFill="#d71919">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="back2" layoutX="688.0" layoutY="62.0" onMouseClicked="#playout2" text="OUT" textFill="#0ab220">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="313.0" layoutY="172.0" prefHeight="42.0" prefWidth="138.0" text="비행기">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="272.0" prefHeight="52.0" prefWidth="410.0" text="미 레 도 레 미 미 미 " textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="333.0" prefHeight="52.0" prefWidth="410.0" text="레 레 레 미 미 미" textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="394.0" prefHeight="52.0" prefWidth="410.0" text="미 레 도 레 미 미 미 " textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="456.0" prefHeight="52.0" prefWidth="410.0" text="레 레 미 레 도" textFill="#4918ab">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

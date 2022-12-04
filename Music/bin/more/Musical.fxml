@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="more.Maincontroller">
+   <children>
+      <Label layoutX="370.0" layoutY="623.0" text="2/3" textFill="#7e93c9">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="go4" layoutX="452.0" layoutY="600.0" onMouseClicked="#play3" prefHeight="78.0" prefWidth="58.0" text="&gt;">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label fx:id="back3" layoutX="301.0" layoutY="600.0" onMouseClicked="#playout3" prefHeight="78.0" prefWidth="58.0" text="&lt;">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="14.0" prefHeight="41.0" prefWidth="278.0" text="* 동시에 누르셔야 합니다*" textFill="#12042c">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="211.0" prefHeight="52.0" prefWidth="197.0" text="솔,파 X 4" textFill="#339494">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="97.0" prefHeight="52.0" prefWidth="278.0" text="젓가락 행진곡" textFill="#12042c">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="280.0" prefHeight="52.0" prefWidth="197.0" text="솔,미 X 4" textFill="#339494">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="350.0" prefHeight="52.0" prefWidth="197.0" text="시,레 X 4" textFill="#339494">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="418.0" prefHeight="52.0" prefWidth="309.0" text="도,도(높은) X 4" textFill="#339494">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="479.0" prefHeight="52.0" prefWidth="392.0" text="도부터 되돌아 오기" textFill="#339494">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

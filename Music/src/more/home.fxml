@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="more.Maincontroller">
+   <children>
+      <ImageView fitHeight="707.0" fitWidth="807.0" layoutX="-2.0" layoutY="-1.0">
+         <image>
+            <Image url="@../image/canege.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="262.0" layoutY="42.0" text="PIANO">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="go1" layoutX="147.0" layoutY="196.0" onMouseClicked="#play" text=" &gt;&gt;&gt;Play" textFill="#ff64d6">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label fx:id="go5" layoutX="147.0" layoutY="333.0" onMouseClicked="#play4" text=" &gt;&gt;&gt;User's" textFill="#89ff77">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label fx:id="go2" layoutX="147.0" layoutY="468.0" onMouseClicked="#play1" text=" &gt;&gt;&gt;sheet music" textFill="#1600ff">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
